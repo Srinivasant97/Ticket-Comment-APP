@@ -1,0 +1,61 @@
+.App{
+    padding: 20px;
+    height: 100vh;
+}
+.login{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.auto-width{
+    width: auto;
+}
+.login-container{
+    height: 100%;
+}
+
+.ticket-box{
+    border: 1px solid #E7EDF5;
+    box-shadow: 0px 0px 2px rgb(0 0 0 / 15%);
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+.ticket-title{
+    display: flex;
+    justify-content: space-between;
+}
+.title-left{
+    display: flex;
+    align-items: center;
+}
+.ticket-created{
+    color: #6610f2;
+    margin-left: 3px;
+}
+.comments-title{
+    display: flex;
+    width: auto;
+}
+
+.comments-createdtime{
+    margin-left: 10px;
+}
+
+.comments-body{
+    margin-left: 20px;
+}
+.comments-tools{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.comment-child{
+    padding-left: 25px;
+}
+a{
+    text-decoration: none;
+}
